@@ -1,6 +1,8 @@
 trigger:
-- main
-- feature/*
+  branches:
+    include:
+      - main
+      - feature/*
  
 # parameters:
 # - name: scanningreq
