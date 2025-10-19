@@ -21,8 +21,14 @@ resource "azurerm_resource_group" "rg3" {
 
 
 
-resource "azurerm_resource_group" "rg3" {
+resource "azurerm_resource_group" "rg4" {
   name     = "example-rg336"
+  location = "West Europe"
+}
+
+
+resource "azurerm_resource_group" "rg6" {
+  name     = "example-rg36"
   location = "West Europe"
 }
 
