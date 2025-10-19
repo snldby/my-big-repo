@@ -13,3 +13,9 @@ resource "azurerm_resource_group" "rg2" {
   location = "West Europe"
 }
 
+
+resource "azurerm_resource_group" "rg3" {
+  name     = "example-rg334"
+  location = "West Europe"
+}
+
