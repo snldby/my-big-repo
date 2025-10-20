@@ -36,3 +36,8 @@ resource "azurerm_resource_group" "rg7" {
   name     = "sunil-rg36"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rg8" {
+  name     = "diwali-rg36"
+  location = "West Europe"
+}
