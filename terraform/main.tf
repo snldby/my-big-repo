@@ -40,4 +40,5 @@ resource "azurerm_resource_group" "rg7" {
 resource "azurerm_resource_group" "rg8" {
   name     = "diwali-rg36"
   location = "West Europe"
+
 }
