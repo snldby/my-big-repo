@@ -32,3 +32,7 @@ resource "azurerm_resource_group" "rg6" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rg7" {
+  name     = "sunil-rg36"
+  location = "West Europe"
+}
